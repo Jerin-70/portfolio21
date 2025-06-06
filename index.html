@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Bebas+Neue&family=Oswald:wght@200..700&family=Playwrite+DK+Loopet:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- header -->
+        <nav>
+            <!-- logo -->
+           <div data-aos="flip-right"> <img class="logo" src="./images/infinity-j-letter-logo-dcb8957c-d753-4203-852a-d8fac5bf5929.jpg" alt=""></div>
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="link" href="#home">HOME</a></li>
+                <li class="list-items"><a class="link" href="#About">ABOUT</a></li>
+                <li class="list-items"><a class="link" href="#skill">SKILLS</a></li>
+                <li class="list-items"><a class="link" href="contact">CONTACT</a></li>
+
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__lightSpeedInLeft" id="username">I'm Jerin <span id="lname">John</span></h1>
+                <p id="user-details">This is my official portfolio website to describe all <br>
+                    Details and work experience in Web Development</p>
+                <a id="download" href="./images/m.pdf">DOWNLOAD CV</a>
+
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" src="./images/shape.png" alt="" class="group1">
+                <!-- man -->
+                <img id="man" src="./images/360_F_644102888_xpJhbJ0c2l533J27jci9ETbiDFXsR1GI-removebg-preview.png"
+                    alt="" class="group1">
+
+
+            </div>
+        </section>
+        <!-- about -->
+        <section id="About">
+            <div class="sectionhead">
+                <h2 class="mainhead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="zoom-in-up" class="aboutimage">
+                    <img class="img1" src="./images/download.png" alt="">
+                </div>
+            </div>
+            <div class="aboutcontent">
+                <p>I'm a passionate and detail-oriented professional with a strong background in coding . I thrive on solving complex problems and continuously expanding my skill set through hands-on experience and learning. My goal is to create impactful, user-centered solutions that drive results and innovation.</p>
+                <div class="information">
+                    <div class="infobox">
+                        <i class="fa-solid fa-user"></i><span>Jerin John</span>
+
+                    </div>
+                    <div  class="infobox">
+                        <i  class="fa-solid fa-phone"></i><span>8590880875</span>
+
+                    </div>
+                    <div class="infobox">
+                        <i class="fa-solid fa-envelope"></i><span>jerinjohn1202@gmail.com</span>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- skills -->
+        <section id="skill">
+            <div class="sectionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span id="subskill" class="subhead">My Skills</span>
+
+            </div>
+            <div class="skillcontent">
+                <div class="progressbar">
+                    <!-- progress bar -->
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barpercentage">80%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  class="basebar htmlbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="barpercentage">75%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  class="basebar cssbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">JS</h3>
+                        <span class="barpercentage">70%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  class="basebar jsbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">REACT</h3>
+                        <span class="barpercentage">60%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  class="basebar reactbar"></div>
+                    </div>
+                </div>
+                <div data-aos="fade-down" class="skillimage">
+                    <img class="myskill" src="./images/ai4.jpeg" alt="skillimage">
+                </div>
+            </div>
+
+        </section>
+        <section id="contact">
+            <div class="contact">
+                <div id="cont" class="sectionhead">
+                    <h2 class="mainhead">Contact</h2>
+                    <span class="subhead">My Contacts</span>
+                </div>
+                <!-- icons -->
+                <div class="iconcollections">
+                    <!-- linked in -->
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/jerin-john-68374b326" target="_blank"><i
+                                class="fa-brands fa-linkedin-in brands"></i></a>
+                    </div>
+                    <!-- github -->
+
+                    <div class="icon">
+                        <a href="" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                    </div>
+                    <!-- twitter -->
+                    <div class="icon">
+                        <a href="https://x.com/JerinJo60838181?t=4mUjyTtfGKsZQrG_K5zClA&s=09" target="_blank"><i
+                                class="fa-brands fa-twitter brands"></i></a>
+                    </div>
+                    <!-- instagram -->
+                    <div class="icon">
+                        <a href="https://www.instagram.com/jrn.nz__?igsh=MTRoZndvcm96anl3ag==" target="_blank"><i
+                                class="fa-brands fa-instagram brands"></i></a>
+                    </div>
+
+
+                    <!-- whatsapp -->
+                    <div class="icon">
+                        <a href="https://wa.me/qr/RX6HZRIKRE43D1" target="_blank"><i
+                                class="fa-brands fa-whatsapp brands"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- footer -->
+         <footer>
+            <p id="copyright">&copy; My Portfolio Website-June 2025,All RightsReserved to &reg; Jerin John</p>
+            <div class="icon uparrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+         </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
